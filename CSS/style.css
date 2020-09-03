@@ -1,0 +1,207 @@
+/* font-family: "Open Sans", sans-serif;
+font-family: "Raleway", sans-serif; */
+:root {
+  --accent-color: darkorange;
+  --primary-text-color: white;
+  --secondary-text-color: #555555;
+  --primary-bgc: #303030;
+  --secondary-bgc: #191c26;
+}
+/* Теги общего пользования */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.625;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flexbox {
+  display: flex;
+}
+.section {
+  padding: 130px 0;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+
+  color: var(--primary-text-color);
+  margin: 0 0 20px;
+}
+.title-label {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+
+  text-transform: uppercase;
+
+  color: #303030;
+
+  margin: 0 0 20px;
+}
+.section-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+
+  margin: 0 0 20px;
+}
+.white-title {
+  color: var(--primary-text-color);
+}
+.section-description {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+  margin: 0 0 20px;
+}
+.btn {
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-color);
+  border-radius: 20px;
+}
+.contacts-link,
+.btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+
+  text-decoration: none;
+  color: var(--primary-text-color);
+
+  padding: 12px 20px;
+}
+.contacts-link {
+  margin-right: 40px;
+}
+.contact,
+.contact-us {
+  background-color: var(--secondary-bgc);
+}
+/* Шапка сайта */
+.social-list {
+  display: flex;
+}
+.social-link:hover,
+.social-link:focus {
+  color: var(--accent-color);
+}
+.social-item:not(:last-child) {
+  margin-right: 40px;
+}
+.social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+.page-header {
+  background-color: lightgray;
+  padding: 32px 0;
+}
+.page-header .flexbox {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.section .flexbox {
+  justify-content: space-between;
+}
+.content-box {
+  width: calc((100% - 30px) / 2);
+}
+.hero {
+  background-color: lightgray;
+}
+.about-us-list {
+  display: flex;
+  justify-content: space-between;
+}
+.about-us-item {
+  width: calc((100% - 30px) / 2);
+}
+
+.prices {
+  /* background: lightsalmon; */
+}
+.prices-content {
+}
+.price-list {
+  width: 50%;
+  padding: 30px 40px;
+}
+.price-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-item {
+  width: calc((100% - 60px) / 3);
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.logo {
+  margin-right: 71px;
+}
+.menu-list {
+  display: flex;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+.menu-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.menu-link:hover,
+.menu-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+
+/* Секция О нас */
+
+/* Подвал сайта */
